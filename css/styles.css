@@ -182,6 +182,10 @@ body {
   display: flex;
 }
 
+.work-list-item {
+  width: 270px;
+}
+
 .work-list-item h3 {
   font-style: normal;
   font-weight: bold;
@@ -234,13 +238,13 @@ body {
 /* Команда */
 
 .team-section {
-  /* padding-top: 94px; */
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
 .team-flex {
-  padding-top: 94px;
+  /* padding-top: 94px; */
 }
 
 .team-header {
@@ -362,8 +366,8 @@ body {
 
 .btn-list {
   display: flex;
-  margin-bottom: 34px;
-  margin-left: 280px;
+  margin-bottom: 50px;
+  justify-content: center;
 }
 
 .btn-list-item + .btn-list-item {
