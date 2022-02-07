@@ -30,7 +30,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid black;
+  /* outline: 2px solid black; */
 }
 
 /* Шапка */
@@ -356,6 +356,7 @@ body {
 .prt-section {
   padding-top: 94px;
   padding-bottom: 94px;
+  border-top: 1px solid #ececec;
 }
 
 .btn-list {
