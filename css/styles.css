@@ -30,7 +30,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid black; */
+  outline: 2px solid black;
 }
 
 /* Шапка */
@@ -353,11 +353,26 @@ body {
 
 /* Портфолио */
 
+.prt-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.btn-list {
+  display: flex;
+  margin-bottom: 34px;
+  margin-left: 280px;
+}
+
+.btn-list-item + .btn-list-item {
+  margin-left: 8px;
+}
+
 .btn {
-  width: 128px;
+  padding: 6px 22px;
+  min-width: 29px;
   height: 38px;
-  left: 576px;
-  top: 174px;
+  border: none;
   background: #f5f4fa;
   border-radius: 4px;
   color: #212121;
@@ -380,6 +395,19 @@ body {
   cursor: pointer;
 }
 
+.galary {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.galary-item {
+  width: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
 .galary-item-header {
   font-style: normal;
   font-weight: bold;
@@ -396,4 +424,9 @@ body {
   line-height: 1.85;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.galary-item-cont {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
