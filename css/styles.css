@@ -1,0 +1,282 @@
+body{
+  font-family: 'Roboto', sans-serif ;
+  color: #434455;
+  background-color: #FFFFFF;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+:root{
+    --text-color: #434455;
+    --title-color: #2E2F42;
+    --hover-color: #404BBF;
+}
+
+/*===========================HEADER=============================*/
+
+.header {
+    
+}
+
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #4D5AE5;
+        text-transform: uppercase;
+}
+
+.logo-span {
+    color: #2E2F42;
+}
+
+.header-nav {}
+
+.nav-list {}
+
+.nav-list-item {}
+
+.nav-list-link {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: #404bbf
+}
+
+.nav-list-link:active,
+.info-list-link:active {
+    color: #404BBF;
+
+}
+
+.info{
+    font-style: inherit;
+}
+
+.info-list {}
+
+.info-list-item {
+
+}
+
+.info-list-link {
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+}
+
+.info-list-link:hover,
+.info-list-link:focus {
+    color: #404bbf
+}
+
+/*===========================HERO=============================*/
+.hero-section {
+    background-color: #2E2F42;;
+}
+
+.hero-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+}
+
+.hero-btn {
+    font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
+        cursor: pointer
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+background-color: #404BBF;
+}
+
+/*===========================ADVANTAGES=============================*/
+
+.adv-section {}
+
+.adv-title {}
+
+.adv-list {}
+
+.list {}
+
+.adv-item {}
+
+.adv-item-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.adv-item-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/*===========================WHAT WE ARE DOING=============================*/
+.busy {}
+
+.busy-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+        text-align: center;
+}
+
+.busy-list {}
+
+.list {}
+
+.busy-list-item {}
+
+/*===========================TEAM SECTION=============================*/
+
+.team-section {
+    background: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+        text-align: center
+}
+
+.team-list {}
+
+.list {}
+
+.team-item {
+    background: #FFFFFF;
+}
+
+.team-item-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.team-item-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/*===========================FOOTER=============================*/
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo-link{
+    font-family: 'Raleway';
+        font-style: normal;
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #F4F4FD;
+        text-transform: uppercase;
+}
+
+.footer-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+
+.footer-span {
+    color: #F4F4FD;
+
+}
+
+
+/*===========================PORTFOLIO=============================*/
+.prt-section {}
+
+.btn-list {}
+
+.list {}
+
+.btn-list-item {}
+
+.prt-btn {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background-color: #F4F4FD;
+}
+
+.prt-btn:hover,
+.prt-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.prt-list {}
+
+.prt-list-item {}
+
+.prt-list-header {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.prt-list-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
