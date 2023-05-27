@@ -38,9 +38,9 @@ ul, ol {
 }
 
 .container {
-    width: 1128px;
-    padding-left: 6px;
-    padding-right: 6px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     border: 1px solid red;
     margin: auto;
 }
@@ -48,7 +48,10 @@ ul, ol {
 /*===========================HEADER=============================*/
 
 .header {
-    
+    border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
 
 .logo-link {
@@ -68,8 +71,7 @@ ul, ol {
 }
 
 .header-nav {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 .nav-list {}
@@ -97,8 +99,6 @@ ul, ol {
 
 .info{
     font-style: inherit;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .info-list {}
@@ -122,7 +122,8 @@ ul, ol {
 
 /*===========================HERO=============================*/
 .hero-section {
-    background-color: #2E2F42;;
+    background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -132,8 +133,9 @@ ul, ol {
         letter-spacing: 0.02em;
         color: #FFFFFF;
         text-align: center;
-        padding-top: 188px;
-        padding-bottom: 292px;
+        margin-bottom: 48px;
+        max-width: 496px;
+        
 }
 
 .hero-btn {
@@ -156,13 +158,14 @@ background-color: #404BBF;
 
 /*===========================ADVANTAGES=============================*/
 
-.adv-section {}
+.adv-section {
+    padding: 120px 0;
+}
 
 .adv-title {}
 
 .adv-list {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
 }
 
 .list {}
@@ -186,7 +189,9 @@ background-color: #404BBF;
 }
 
 /*===========================WHAT WE ARE DOING=============================*/
-.busy {}
+.busy {
+    padding-bottom: 120px;
+}
 
 .busy-title {
     font-weight: 700;
@@ -199,8 +204,7 @@ background-color: #404BBF;
 }
 
 .busy-list {
-    padding-bottom: 120px;
-    padding-top: 72px;
+    
 }
 
 .list {}
@@ -211,6 +215,7 @@ background-color: #404BBF;
 
 .team-section {
     background: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -221,12 +226,11 @@ background-color: #404BBF;
         text-transform: capitalize;
         color: #2E2F42;
         text-align: center;
-        padding-top: 120px;
+        
 }
 
 .team-list {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
 }
 
 .list {}
@@ -254,6 +258,7 @@ background-color: #404BBF;
 /*===========================FOOTER=============================*/
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-logo-link{
