@@ -162,7 +162,6 @@ ul, ol {
         color: #FFFFFF;
         background-color: #4D5AE5;
         cursor: pointer;
-        margin-bottom: px;
         display: block;
         min-width: 169px;
         height: 56px;
@@ -187,6 +186,9 @@ background-color: #404BBF;
 .adv-title {}
 
 .adv-list {
+    display: flex;
+    gap: 24px;
+
     
 }
 
@@ -200,6 +202,7 @@ background-color: #404BBF;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 
 .adv-item-text {
