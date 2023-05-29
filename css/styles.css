@@ -70,6 +70,7 @@ ul, ol {
         color: #4D5AE5;
         text-transform: uppercase;
         margin-right: 76px;
+        padding: 24px 0;
         
 }
 
@@ -226,9 +227,12 @@ background-color: #404BBF;
         text-transform: capitalize;
         color: #2E2F42;
         text-align: center;
+        margin-bottom: 72px;
 }
 
 .busy-list {
+    display: flex;
+    gap: 24px;
     
 }
 
@@ -251,10 +255,13 @@ background-color: #404BBF;
         text-transform: capitalize;
         color: #2E2F42;
         text-align: center;
+        margin-bottom: 72px;
         
 }
 
 .team-list {
+    display: flex;
+    gap: 24px;
     
 }
 
@@ -262,6 +269,13 @@ background-color: #404BBF;
 
 .team-item {
     background: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-card-container {
+    padding: 32px 16px;
 }
 
 .team-item-title {
@@ -270,7 +284,11 @@ background-color: #404BBF;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        text-align: center;
+        margin-bottom: 8px;
 }
+
+
 
 .team-item-text {
     font-weight: 400;
@@ -278,6 +296,7 @@ background-color: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: center;
 }
 
 /*===========================FOOTER=============================*/
@@ -287,14 +306,16 @@ background-color: #404BBF;
 }
 
 .footer-logo-link{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
         font-style: normal;
-    font-weight: 800;
+        font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        color: #F4F4FD;
+        color: #4D5AE5;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-text {
