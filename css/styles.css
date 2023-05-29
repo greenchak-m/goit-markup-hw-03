@@ -42,14 +42,20 @@ ul, ol {
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
+    
 }
 
 /*===========================HEADER=============================*/
+
+.header-container{
+    display: flex;
+}
 
 .header {
     border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
+    
 
 }
 
@@ -62,6 +68,7 @@ ul, ol {
         letter-spacing: 0.03em;
         color: #4D5AE5;
         text-transform: uppercase;
+        margin-right: 76px;
         
 }
 
@@ -70,10 +77,13 @@ ul, ol {
 }
 
 .header-nav {
-    
+    display: flex;
 }
 
-.nav-list {}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
 
 .nav-list-item {}
 
@@ -98,9 +108,13 @@ ul, ol {
 
 .info{
     font-style: inherit;
+    margin-left: auto;
 }
 
-.info-list {}
+.info-list {
+    display: flex;
+    gap: 40px;
+}
 
 .info-list-item {
 
@@ -134,7 +148,7 @@ ul, ol {
         text-align: center;
         margin-bottom: 48px;
         max-width: 496px;
-        
+        margin: 0 auto;
 }
 
 .hero-btn {
@@ -286,7 +300,10 @@ background-color: #404BBF;
 
 
 /*===========================PORTFOLIO=============================*/
-.prt-section {}
+.prt-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .btn-list {}
 
