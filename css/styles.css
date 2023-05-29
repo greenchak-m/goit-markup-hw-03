@@ -81,6 +81,7 @@ ul, ol {
 .header-nav {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .nav-list {
@@ -189,13 +190,13 @@ background-color: #404BBF;
 .adv-list {
     display: flex;
     gap: 24px;
-
-    
 }
 
 .list {}
 
-.adv-item {}
+.adv-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .adv-item-title {
     font-weight: 500;
