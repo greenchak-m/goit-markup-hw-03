@@ -42,6 +42,7 @@ ul, ol {
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
+    /* display: flex; */
     
 }
 
@@ -78,6 +79,7 @@ ul, ol {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .nav-list {
@@ -161,6 +163,13 @@ ul, ol {
         background-color: #4D5AE5;
         cursor: pointer;
         margin-bottom: px;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border-radius: 4px;
+        border: none;
+        margin: auto;
+        margin-top: 48px;
         
 }
 
