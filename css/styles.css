@@ -70,7 +70,7 @@ ul, ol {
         color: #4D5AE5;
         text-transform: uppercase;
         margin-right: 76px;
-        padding: 24px 0;
+        /* padding: 24px 0; */
         
 }
 
@@ -81,7 +81,7 @@ ul, ol {
 .header-nav {
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .nav-list {
@@ -339,7 +339,11 @@ background-color: #404BBF;
     padding-bottom: 120px;
 }
 
-.btn-list {}
+.btn-list {
+    display: flex;
+    gap: 24px;
+
+}
 
 .list {}
 
@@ -354,6 +358,8 @@ background-color: #404BBF;
         letter-spacing: 0.04em;
         color: #4D5AE5;
         background-color: #F4F4FD;
+        border: 1px solid #E7E9FC;
+            border-radius: 4px;
 }
 
 .prt-btn:hover,
