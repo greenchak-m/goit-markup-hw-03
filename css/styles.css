@@ -342,6 +342,8 @@ background-color: #404BBF;
 .btn-list {
     display: flex;
     gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
 
 }
 
@@ -360,6 +362,7 @@ background-color: #404BBF;
         background-color: #F4F4FD;
         border: 1px solid #E7E9FC;
             border-radius: 4px;
+            padding: 12px 24px;
 }
 
 .prt-btn:hover,
@@ -367,11 +370,18 @@ background-color: #404BBF;
     color: #FFFFFF;
     background-color: #404BBF;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
-.prt-list {}
+.prt-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
 
-.prt-list-item {}
+.prt-list-item {
+    width: calc((100% - 48px) / 3);
+}
 
 .prt-list-header {
     font-weight: 500;
@@ -387,4 +397,10 @@ background-color: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.card-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 }
